@@ -1,6 +1,9 @@
 import { ColorModeScript, theme } from '@chakra-ui/react'
 
+import { generateMetadata } from './(marketing)/metadata'
 import { Provider } from './provider'
+
+export { generateMetadata }
 
 export default function Layout(props: { children: React.ReactNode }) {
   const colorMode = theme.config.initialColorMode
