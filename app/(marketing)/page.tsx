@@ -21,21 +21,33 @@ import type { Metadata, NextPage } from 'next'
 import Image from 'next/image'
 import {
   FiArrowRight,
+  FiBarChart2,
   FiBox,
   FiCheck,
+  FiCloud,
   FiCode,
   FiCopy,
+  FiCpu,
   FiFlag,
   FiGrid,
+  FiLayers,
   FiLock,
+  FiMessageCircle,
+  FiMessageSquare,
+  FiRefreshCcw,
+  FiRefreshCw,
   FiSearch,
+  FiShoppingBag,
+  FiShoppingCart,
   FiSliders,
+  FiSmartphone,
   FiSmile,
   FiTerminal,
   FiThumbsUp,
   FiToggleLeft,
   FiTrendingUp,
   FiUserPlus,
+  FiZap,
 } from 'react-icons/fi'
 
 import * as React from 'react'
@@ -113,7 +125,7 @@ const HeroSection: React.FC = () => {
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
-                  href="https://demo.saas-ui.dev"
+                  href="https://demo.coregy.com.vn"
                   variant="outline"
                   rightIcon={
                     <Icon
@@ -157,44 +169,44 @@ const HeroSection: React.FC = () => {
           </Box>
         </Stack>
       </Container>
-
       <Features
-        id="benefits"
+        id="coregy-features"
         columns={[1, 2, 4]}
-        iconSize={4}
+        iconSize={5}
         innerWidth="container.xl"
         pt="20"
         features={[
           {
-            title: 'Accessible',
-            icon: FiSmile,
-            description: 'All components strictly follow WAI-ARIA standards.',
-            iconPosition: 'left',
+            title: 'E-commerce Solutions',
+            icon: FiShoppingCart, // Biểu tượng thể hiện E-commerce
+            description:
+              'Build scalable and intelligent e-commerce platforms that optimize transactions and enhance customer experience.',
+            iconPosition: 'top',
             delay: 0.6,
           },
           {
-            title: 'Themable',
-            icon: FiSliders,
+            title: 'Digital Transformation',
+            icon: FiRefreshCw, // Biểu tượng thể hiện Chuyển đổi số
             description:
-              'Fully customize all components to your brand with theme support and style props.',
-            iconPosition: 'left',
+              'Leverage AI-driven solutions to modernize business processes, boost efficiency, and drive innovation.',
+            iconPosition: 'top',
             delay: 0.8,
           },
           {
-            title: 'Composable',
-            icon: FiGrid,
+            title: 'Trading & Chat Bots',
+            icon: FiMessageSquare, // Biểu tượng thể hiện Chatbot & Bot giao dịch
             description:
-              'Compose components to fit your needs and mix them together to create new ones.',
-            iconPosition: 'left',
-            delay: 1,
+              'Deploy intelligent bots to automate trading strategies and enhance customer interactions with AI-powered chatbots.',
+            iconPosition: 'top',
+            delay: 1.0,
           },
           {
-            title: 'Productive',
-            icon: FiThumbsUp,
+            title: 'AI Agents & Task Automation',
+            icon: FiCpu, // Biểu tượng AI Agents & tự động hóa
             description:
-              'Designed to reduce boilerplate and fully typed, build your product at speed.',
-            iconPosition: 'left',
-            delay: 1.1,
+              'Implement AI agents that autonomously handle workflows, reduce manual tasks, and improve business operations.',
+            iconPosition: 'top',
+            delay: 1.2,
           },
         ]}
         reveal={FallInPlace}
@@ -204,17 +216,17 @@ const HeroSection: React.FC = () => {
 }
 
 const HighlightsSection = () => {
-  const { value, onCopy, hasCopied } = useClipboard('yarn add @saas-ui/react')
+  const { value, onCopy, hasCopied } = useClipboard('yarn add @coregy/sdk')
 
   return (
     <Highlights>
-      <HighlightsItem colSpan={[1, null, 2]} title="Core components">
+      <HighlightsItem colSpan={[1, null, 2]} title="Powerful Coregy Solutions">
         <VStack alignItems="flex-start" spacing="8">
           <Text color="muted" fontSize="xl">
-            Get started for free with <Em>30+ open source components</Em>.
-            Including authentication screens with Clerk, Supabase and Magic.
-            Fully functional forms with React Hook Form. Data tables with React
-            Table.
+            Unlock the potential of <Em>AI-powered automation</Em> and{' '}
+            <Em>digital transformation</Em>. From intelligent{' '}
+            <Em>e-commerce platforms</Em> to <Em>automated trading bots</Em>,
+            Coregy provides solutions that drive business growth.
           </Text>
 
           <Flex
@@ -225,7 +237,7 @@ const HighlightsSection = () => {
             py="1"
             ps="8"
             pe="2"
-            bg="primary.900"
+            bg="primary.800"
             _dark={{ bg: 'gray.900' }}
           >
             <Box>
@@ -233,7 +245,7 @@ const HighlightsSection = () => {
                 yarn add
               </Text>{' '}
               <Text color="cyan.300" display="inline">
-                @saas-ui/react
+                @coregy/sdk
               </Text>
             </Box>
             <IconButton
@@ -248,55 +260,54 @@ const HighlightsSection = () => {
           </Flex>
         </VStack>
       </HighlightsItem>
-      <HighlightsItem title="Solid foundations">
+
+      <HighlightsItem title="Scalable & Reliable">
         <Text color="muted" fontSize="lg">
-          We don&apos;t like to re-invent the wheel, neither should you. We
-          selected the most productive and established tools in the scene and
-          build Saas UI on top of it.
+          Coregy's AI-driven architecture ensures scalability, reliability, and
+          real-time processing for high-demand industries like e-commerce and
+          automated trading.
         </Text>
       </HighlightsItem>
+
       <HighlightsTestimonialItem
-        name="Renata Alink"
-        description="Founder"
-        avatar="/static/images/avatar.jpg"
-        gradient={['pink.200', 'purple.500']}
+        name="Leo Phan"
+        description="Co-founder, Coregy"
+        avatar="/static/images/avt.webp"
+        gradient={['blue.400', 'blue.800']} // Đổi gradient màu xanh
       >
-        “Saas UI helped us set up a beautiful modern UI in no time. It saved us
-        hundreds of hours in development time and allowed us to focus on
-        business logic for our specific use-case from the start.”
+        “Coregy revolutionizes business operations with AI-driven solutions,
+        enhancing efficiency, scalability, and automation across e-commerce,
+        enterprise management, trading, and digital transformation.”
       </HighlightsTestimonialItem>
+
       <HighlightsItem
         colSpan={[1, null, 2]}
-        title="Start your next idea two steps ahead"
+        title="Elevate Your Business with Coregy"
       >
         <Text color="muted" fontSize="lg">
-          We took care of all your basic frontend needs, so you can start
-          building functionality that makes your product unique.
+          Experience the next generation of AI-driven automation, optimized for
+          e-commerce, finance, and digital transformation.
         </Text>
         <Wrap mt="8">
           {[
-            'authentication',
-            'navigation',
-            'crud',
-            'settings',
-            'multi-tenancy',
-            'layouts',
-            'billing',
-            'a11y testing',
-            'server-side rendering',
-            'documentation',
-            'onboarding',
-            'storybooks',
-            'theming',
-            'upselling',
-            'unit testing',
-            'feature flags',
-            'responsiveness',
+            'E-commerce Solution',
+            'Zalo OA Solution',
+            'Magento 2 Solution',
+            'Shopify Solution',
+            'Digital Transformation',
+            'Odoo ERP Solution',
+            'MT5 Trading Bots',
+            'Zalo Chatbot',
+            'Zalo Mini App',
+            'AI Agents for Task Automation',
+            'AI Agents for Business Development',
+            'Mobile App Development',
+            'Web App Development',
           ].map((value) => (
             <Tag
               key={value}
               variant="subtle"
-              colorScheme="purple"
+              colorScheme="blue" // Đổi từ "purple" sang "blue"
               rounded="full"
               px="3"
             >
@@ -320,16 +331,16 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Not your standard
-          <Br /> dashboard template.
+          Unlock the power of
+          <Br /> AI & Digital Transformation.
         </Heading>
       }
       description={
         <>
-          Saas UI Pro includes everything you need to build modern frontends.
+          Coregy provides cutting-edge AI-powered solutions for businesses.
           <Br />
-          Use it as a template for your next product or foundation for your
-          design system.
+          Enhance efficiency, automate processes, and scale effortlessly with
+          our intelligent technology.
         </>
       }
       align="left"
@@ -337,71 +348,66 @@ const FeaturesSection = () => {
       iconSize={4}
       features={[
         {
-          title: '#components.',
-          icon: FiBox,
+          title: 'E-commerce Solutions.',
+          icon: FiShoppingCart,
           description:
-            'All premium components are available on a private NPM registery, no more copy pasting and always up-to-date.',
+            'Leverage AI-powered insights and automation to enhance customer experiences and optimize online sales.',
           variant: 'inline',
         },
         {
-          title: 'Starterkits.',
-          icon: FiLock,
+          title: 'Digital Transformation.',
+          icon: FiRefreshCcw,
           description:
-            'Example apps in Next.JS, Electron. Including authentication, billing, example pages, everything you need to get started FAST.',
+            'Seamlessly integrate AI and automation into your business processes, driving efficiency and scalability.',
           variant: 'inline',
         },
         {
-          title: 'Documentation.',
-          icon: FiSearch,
-          description:
-            'Extensively documented, including storybooks, best practices, use-cases and examples.',
-          variant: 'inline',
-        },
-        {
-          title: 'Onboarding.',
-          icon: FiUserPlus,
-          description:
-            'Add user onboarding flows, like tours, hints and inline documentation without breaking a sweat.',
-          variant: 'inline',
-        },
-        {
-          title: 'Feature flags.',
-          icon: FiFlag,
-          description:
-            "Implement feature toggles for your billing plans with easy to use hooks. Connect Flagsmith, or other remote config services once you're ready.",
-          variant: 'inline',
-        },
-        {
-          title: 'Upselling.',
+          title: 'Automated Trading Bots.',
           icon: FiTrendingUp,
           description:
-            '#components and hooks for upgrade flows designed to make upgrading inside your app frictionless.',
+            'Deploy intelligent MT5 trading bots that optimize strategies, execute trades, and maximize profitability.',
           variant: 'inline',
         },
         {
-          title: 'Themes.',
-          icon: FiToggleLeft,
+          title: 'AI Agents for Automation.',
+          icon: FiCpu,
           description:
-            'Includes multiple themes with darkmode support, always have the perfect starting point for your next project.',
+            'Implement AI-driven agents to handle repetitive tasks, customer interactions, and business workflows.',
           variant: 'inline',
         },
         {
-          title: 'Generators.',
-          icon: FiTerminal,
+          title: 'Custom ERP & CRM Solutions.',
+          icon: FiLayers,
           description:
-            'Extend your design system while maintaininig code quality and consistency with built-in generators.',
+            'Utilize Coregy’s ERP and CRM solutions to streamline operations and improve business management.',
           variant: 'inline',
         },
         {
-          title: 'Monorepo.',
-          icon: FiCode,
-          description: (
-            <>
-              All code is available as packages in a high-performance{' '}
-              <Link href="https://turborepo.com">Turborepo</Link>, you have full
-              control to modify and adjust it to your workflow.
-            </>
-          ),
+          title: 'Zalo OA & Chatbot Solutions.',
+          icon: FiMessageCircle,
+          description:
+            'Engage customers through automated chatbots and Zalo Official Account integrations.',
+          variant: 'inline',
+        },
+        {
+          title: 'Scalable Cloud Architecture.',
+          icon: FiCloud,
+          description:
+            'Deploy high-performance cloud-based applications optimized for speed, security, and scalability.',
+          variant: 'inline',
+        },
+        {
+          title: 'AI-powered Data Analytics.',
+          icon: FiBarChart2,
+          description:
+            'Gain deeper business insights with AI-driven data analytics and real-time reporting.',
+          variant: 'inline',
+        },
+        {
+          title: 'Web & Mobile App Development.',
+          icon: FiSmartphone,
+          description:
+            'Build robust, scalable, and user-friendly web and mobile applications tailored to your business needs.',
           variant: 'inline',
         },
       ]}
