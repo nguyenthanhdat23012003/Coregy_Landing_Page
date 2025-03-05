@@ -263,9 +263,9 @@ const HighlightsSection = () => {
 
       <HighlightsItem title="Scalable & Reliable">
         <Text color="muted" fontSize="lg">
-          Coregy's AI-driven architecture ensures scalability, reliability, and
-          real-time processing for high-demand industries like e-commerce and
-          automated trading.
+          Coregy&apos;s AI-driven architecture ensures scalability, reliability,
+          and real-time processing for high-demand industries like e-commerce
+          and automated trading.
         </Text>
       </HighlightsItem>
 
