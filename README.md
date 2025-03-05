@@ -1,62 +1,38 @@
-# Saas UI - Next.js - landing page.
+# Coregy - AI-Powered Digital Transformation
 
-This is a free Next.js landing page template based on https://saas-ui.dev.
-Feel free to submit any feature requests. If you use this template please share what you've built [on Twitter](https://twitter.com/saas_js) 🚀.
+Coregy is an AI-driven platform providing **comprehensive digital solutions** for businesses. We specialize in **e-commerce, digital transformation, AI automation, and full-service Zalo solutions**, helping businesses **optimize operations, increase efficiency, and enhance customer engagement**.
 
-**[View demo](https://saas-ui-nextjs-landing-page.netlify.app/)**
+## 🌐 Official Website
 
-## Tech
+🔗 [Coregy](https://coregy.com.vn)
 
-- Next.js (App router)
-- Chakra UI
-- Saas UI
-- Typescript
+## 📖 Documentation
 
-## Features
+📚 [Coregy Docs](https://doc.coregy.com.vn)
 
-- Feature blocks
-- Testimonials
-- Pricing tables
-- Log in and Sign up pages
-- FAQ
+## 🚀 Our Services
 
-## Getting Started
+### **E-commerce Solutions**
 
-First, clone this repo and run `pnpm i`
+- Magento 2 Development & Optimization
+- Shopify Store Customization & Integration
 
-To start the app run:
+### **Digital Transformation**
 
-```bash
-pnpm dev
-```
+- Odoo ERP Customization & Implementation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **AI Agents & Automation**
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- AI-powered Chatbots for Customer Support
+- Trading Bots for Automated Financial Transactions
 
-## Configuration
+### **Full-Service Zalo Solutions**
 
-Configuration files to edit basic site information, add testimonials, faq and pricing table can be found in `/data`.
+- Zalo Mini App Development
+- Zalo OA (Official Account) Setup & Management
+- Zalo Chat Tool & Automation
+- Zalo Marketing & Customer Engagement
 
-## Learn More
+Coregy empowers businesses with **scalable, AI-driven solutions** to **streamline operations and maximize efficiency**.
 
-Find out more about Saas UI.
-
-- [Saas UI Documentation](https://saas-ui.dev/docs).
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## License
-
-MIT
+🚀 **Transform your business with Coregy today!**
