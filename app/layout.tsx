@@ -11,22 +11,18 @@ export default function Layout(props: { children: React.ReactNode }) {
   return (
     <html lang="en" data-theme={colorMode} style={{ colorScheme: colorMode }}>
       <head>
-        <link
-          rel="apple-touch-icon"
-          sizes="76x76"
-          href="/static/favicons/apple-touch-icon.png"
-        />
+        <link rel="logo" sizes="76x76" href="/static/favicons/logo.png" />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/static/favicons/favicon-32x32.png"
+          href="/static/favicons/logo.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/static/favicons/favicon-16x16.png"
+          href="/static/favicons/logo.png"
         />
         <link rel="manifest" href="/static/favicons/manifest.json" />
       </head>
