@@ -245,7 +245,7 @@ const HighlightsSection = () => {
                 yarn add
               </Text>{' '}
               <Text color="cyan.300" display="inline">
-                @coregy/sdk
+                @coregy/service
               </Text>
             </Box>
             <IconButton
