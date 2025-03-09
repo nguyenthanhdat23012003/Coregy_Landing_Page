@@ -216,7 +216,7 @@ const HeroSection: React.FC = () => {
 }
 
 const HighlightsSection = () => {
-  const { value, onCopy, hasCopied } = useClipboard('yarn add @coregy/sdk')
+  const { value, onCopy, hasCopied } = useClipboard('yarn add @coregy/service')
 
   return (
     <Highlights>
