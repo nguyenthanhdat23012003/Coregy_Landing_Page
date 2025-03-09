@@ -2,29 +2,53 @@ import * as React from 'react'
 
 const faq = {
   title: 'Frequently asked questions',
-  // description: '',
   items: [
     {
-      q: 'How many products can I use Saas UI Pro for?',
+      q: 'Is Coregy suitable for my business?',
       a: (
         <>
-          The single license can be used for one commercial application or SaaS
-          product and unlimited internal tools. You can buy as many licenses as
-          you need. <br /> The unlimited license does not have any restrictions.
+          Absolutely! Coregy offers flexible solutions for businesses of all
+          sizes, from startups to large enterprises. Whether you need e-commerce
+          integration, digital transformation, or AI-driven automation, we’ve
+          got you covered.
         </>
       ),
     },
     {
-      q: 'Can I use Saas UI Pro for client work?',
-      a: "Yes, that's totally up to you, as long as it fits the license you purchase.",
+      q: 'Which e-commerce platforms does Coregy support?',
+      a: (
+        <>
+          Coregy seamlessly integrates with <strong>Magento, Shopify</strong>,
+          and other e-commerce platforms. We optimize sales processes,
+          streamline order management, and enhance marketing campaigns for
+          better efficiency.
+        </>
+      ),
     },
     {
-      q: 'Can I use Saas UI Pro for Open Source projects?',
-      a: 'No currently not. A large part of Saas UI is already released under MIT license. We try to give back to the community as much as possible.',
+      q: 'Does Coregy provide chatbot and trading bot solutions?',
+      a: (
+        <>
+          Yes! Our <strong>AI Chatbots</strong> automate customer support, order
+          processing, and product recommendations. Meanwhile, our{' '}
+          <strong>Trading Bots</strong> help businesses automate investment
+          strategies and transactions on multiple platforms.
+        </>
+      ),
     },
     {
-      q: 'Does Saas UI include Figma, Sketch or other design files?',
-      a: 'No, Saas UI does not include any design assets. Maintaining design resources costs a lot of extra effort. We believe small teams can move much faster by designing directly in code, with help of Storybooks.',
+      q: 'How can I implement Zalo solutions with Coregy?',
+      a: (
+        <>
+          Coregy provides full{' '}
+          <strong>
+            Zalo Mini App, Chatbot, Marketing Automation, OA Management
+          </strong>
+          , and more. Our solutions help businesses engage with customers,
+          optimize marketing campaigns, and manage sales channels efficiently on
+          Zalo.
+        </>
+      ),
     },
   ],
 }

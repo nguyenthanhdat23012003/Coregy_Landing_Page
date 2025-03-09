@@ -1,40 +1,40 @@
 export default {
-  title: 'Loved by tech people',
+  title: 'Loved by our customers',
   items: [
     {
-      name: 'Eelco Wiersma',
-      description: 'Founder Saas UI',
-      avatar:
-        'https://pbs.twimg.com/profile_images/1470742164024008706/k-eXHtu0_normal.jpg',
+      name: 'Mr. Zheng Ting',
+      description: 'CEO of Kingess',
+      avatar: '/static/images/avatar-kingess.jpg',
       children: (
         <>
-          “With SaaS UI I am able to produce high quality dashboard apps and
-          internal tools without a lot of design skills. The ROI really is
-          amazing.”
+          “Coregy's Zalo solutions streamlined our sales and customer
+          engagement, boosting retention by 35% and cutting response time in
+          half. Their automation and marketing tools have been key to scaling
+          our business.”
         </>
       ),
     },
     {
-      name: 'Caroline Yahaya',
-      description: 'Fullstack Developer',
-      avatar: '/static/images/avatar2.jpg',
+      name: 'Ms. Evelyn Carter',
+      description: 'CFO of NexaTrade',
+      avatar: '/static/images/avatar-canada.jpg',
       children: (
         <>
-          “Saas UI allows me to build beautiful and functional UI super fast.
-          The components are very well thought out and the Next.js starter kit
-          saved me at least 100 hours of work.”
+          “Coregy’s MT5 trading bots reduced manual effort by 70%, improving
+          speed and accuracy. Their automation ensures better risk management
+          and portfolio performance.”
         </>
       ),
     },
     {
-      name: 'Alberto Vazquez',
-      description: 'Frontend Engineer',
-      avatar: '/static/images/avatar3.jpg',
+      name: 'Mr. Alejandro Rivera',
+      description: 'COO of Conversia Solutions',
+      avatar: '/static/images/avatar-men.jpg',
       children: (
         <>
-          “Saas UI gave us a perfect starting point for our project, having the
-          storybooks already set up with beautifully crafted components and
-          fully mocked pages was a treat.”
+          “Coregy’s AI chatbots cut response time by 60%, freeing our team for
+          complex tasks. Their automation enhanced efficiency and supported
+          multi-language expansion.”
         </>
       ),
     },

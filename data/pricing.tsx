@@ -1,113 +1,92 @@
 import { HStack, Text } from '@chakra-ui/react'
 
 export default {
-  title: 'Pricing for every stage',
-  description:
-    'Pay once and get life-time access to our high quality components.',
+  title: 'Coregy Pricing Plans',
+  description: 'Scalable solutions for digital transformation & AI automation.',
   plans: [
     {
-      id: 'oss',
-      title: 'Open Source',
-      description: 'Basic compoents, perfect to get started.',
+      id: 'consulting',
+      title: 'Strategy & Consulting',
+      description:
+        'For businesses exploring digital transformation but unsure where to start.',
       price: 'Free',
       features: [
         {
-          title: 'MIT License',
+          title: 'Technology consultation',
         },
         {
-          title: 'Authentication (Clerk/Supabase/Magic)',
+          title: 'Business process evaluation',
         },
         {
-          title: 'Form (react-hook-form)',
+          title: 'Improvement recommendations',
         },
         {
-          title: 'Modals manager',
+          title: 'Solution architecture planning',
         },
         {
-          title: 'Hotkeys',
-        },
-        {
-          title: 'Web3 components',
-        },
-        {
-          title: 'And much more...',
+          title: 'Roadmap for implementation',
         },
       ],
       action: {
-        href: '#',
+        href: '/signup',
+        label: 'Explore',
       },
     },
     {
-      id: 'bootstrap',
-      title: 'Bootstrap',
-      description: 'Complete frontend stack for bootstrappers and small teams.',
-      price: 'Free',
+      id: 'implementation',
+      title: 'Technology Implementation',
+      description:
+        'For businesses ready to implement digital solutions and streamline operations.',
+      price: '$399/month',
       isRecommended: true,
       features: [
         {
-          title: 'One project',
+          title: 'E-commerce setup (Shopify, Magento)',
         },
         {
-          title: 'One developer',
+          title: 'Digital transformation (Odoo ERP)',
         },
         {
-          title: 'Advanced components',
+          title: 'Full-service Zalo (Mini App, OA, Marketing, Chat Tool)',
         },
         {
-          title: 'Multiple themes',
+          title: 'Automation & workflow optimization',
         },
         {
-          title: 'Next.js and Electron boilerplates',
-        },
-        {
-          title: 'Private discord community',
-        },
-        {
-          title: '1 year of updates',
-        },
-        null,
-        {
-          title: 'Private beta access',
-          iconColor: 'green.500',
+          title: 'Technical support & maintenance',
         },
       ],
       action: {
-        href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order?variant=Single%20license',
+        href: '/signup',
+        label: 'Get Started',
       },
     },
     {
-      id: 'startup',
-      title: 'Startup',
-      description: 'Unlimited license for growing teams.',
-      price: (
-        <HStack>
-          <Text textDecoration="line-through" fontSize="sm" color="gray.400">
-            €999,-
-          </Text>
-          <Text>€499,-</Text>
-        </HStack>
-      ),
+      id: 'ai-solutions',
+      title: 'AI & Automation',
+      description:
+        'Advanced AI-driven automation, chatbots, and trading bots for business.',
+      price: 'Custom Pricing',
       features: [
         {
-          title: 'Unlimited projects',
+          title: 'AI Agents for Business Automation',
         },
         {
-          title: 'Unlimited developers',
+          title: 'Trading Bots for MT5 & Financial Markets',
         },
         {
-          title: '1 year of updates',
+          title: 'AI-powered Chatbots for Customer Support',
         },
         {
-          title: 'Everything from Bootstrap',
+          title: 'Intelligent Decision-Making Systems',
         },
-        null,
         {
-          title: 'Private beta access',
-          iconColor: 'green.500',
+          title: 'Custom AI integrations',
         },
       ],
       action: {
-        href: 'https://appulse.gumroad.com/l/saas-ui-pro-pre-order?variant=Unlimited%20license',
+        href: '/signup',
+        label: 'Contact Us',
       },
     },
   ],
