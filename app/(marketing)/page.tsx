@@ -125,7 +125,7 @@ const HeroSection: React.FC = () => {
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
-                  href="https://demo.coregy.com.vn"
+                  href="https://zns.coregy.com.vn"
                   variant="outline"
                   rightIcon={
                     <Icon
