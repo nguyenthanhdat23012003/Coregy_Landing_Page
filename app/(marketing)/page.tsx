@@ -102,15 +102,15 @@ const HeroSection: React.FC = () => {
             title={
               <FallInPlace>
                 Transforming Businesses
-                <Br /> with AI & Digital Commerce
+                <Br /> with Custom Software & Digital Innovation
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Empowering businesses with{' '}
-                <Em>AI-driven digital transformation</Em>, intelligent
-                e-commerce solutions, and automation through trading bots &
-                chatbots.
+                Empowering companies through{' '}
+                <Em>end-to-end software outsourcing services</Em>, from digital
+                transformation and ecommerce development to workflow
+                optimization with AI-powered solutions.
               </FallInPlace>
             }
           >
@@ -125,7 +125,7 @@ const HeroSection: React.FC = () => {
                 </ButtonLink>
                 <ButtonLink
                   size="lg"
-                  href="https://zns.coregy.com.vn"
+                  href="mailto:contact@coregy.com.vn"
                   variant="outline"
                   rightIcon={
                     <Icon
@@ -140,7 +140,7 @@ const HeroSection: React.FC = () => {
                     />
                   }
                 >
-                  View demo
+                  Contact to view demo
                 </ButtonLink>
               </ButtonGroup>
             </FallInPlace>
@@ -157,10 +157,10 @@ const HeroSection: React.FC = () => {
             <FallInPlace delay={1}>
               <Box overflow="hidden" height="100%">
                 <Image
-                  src="/static/screenshots/list.png"
+                  src="/static/screenshots/list1.png"
                   width={1200}
                   height={762}
-                  alt="Screenshot of a ListPage in Saas UI Pro"
+                  alt="Screenshot of a ListPage"
                   quality="75"
                   priority
                 />
@@ -180,7 +180,7 @@ const HeroSection: React.FC = () => {
             title: 'E-commerce Solutions',
             icon: FiShoppingCart, // Biểu tượng thể hiện E-commerce
             description:
-              'Build scalable and intelligent e-commerce platforms that optimize transactions and enhance customer experience.',
+              'Develop robust and user-friendly e-commerce systems that streamline online transactions, manage inventory, and enhance omnichannel customer engagement.',
             iconPosition: 'top',
             delay: 0.6,
           },
@@ -188,23 +188,23 @@ const HeroSection: React.FC = () => {
             title: 'Digital Transformation',
             icon: FiRefreshCw, // Biểu tượng thể hiện Chuyển đổi số
             description:
-              'Leverage AI-driven solutions to modernize business processes, boost efficiency, and drive innovation.',
+              'Support businesses in adopting modern technologies, restructuring operations, and digitizing workflows for greater efficiency and long-term growth.',
             iconPosition: 'top',
             delay: 0.8,
           },
           {
-            title: 'Trading & Chat Bots',
+            title: 'Custom Software Development',
             icon: FiMessageSquare, // Biểu tượng thể hiện Chatbot & Bot giao dịch
             description:
-              'Deploy intelligent bots to automate trading strategies and enhance customer interactions with AI-powered chatbots.',
+              'Deliver tailored software solutions for web, mobile, and enterprise systems to meet unique business needs with scalability and performance in mind.',
             iconPosition: 'top',
             delay: 1.0,
           },
           {
-            title: 'AI Agents & Task Automation',
+            title: 'AI Agents & Workflow Automation',
             icon: FiCpu, // Biểu tượng AI Agents & tự động hóa
             description:
-              'Implement AI agents that autonomously handle workflows, reduce manual tasks, and improve business operations.',
+              'Apply AI-powered tools and automation frameworks to optimize business processes, reduce repetitive tasks, and unlock productivity at scale.',
             iconPosition: 'top',
             delay: 1.2,
           },
@@ -220,13 +220,17 @@ const HighlightsSection = () => {
 
   return (
     <Highlights>
-      <HighlightsItem colSpan={[1, null, 2]} title="Powerful Coregy Solutions">
+      <HighlightsItem
+        colSpan={[1, null, 2]}
+        title="Comprehensive Coregy Solutions"
+      >
         <VStack alignItems="flex-start" spacing="8">
           <Text color="muted" fontSize="xl">
-            Unlock the potential of <Em>AI-powered automation</Em> and{' '}
-            <Em>digital transformation</Em>. From intelligent{' '}
-            <Em>e-commerce platforms</Em> to <Em>automated trading bots</Em>,
-            Coregy provides solutions that drive business growth.
+            Unlock the full potential of tailored <Em>software outsourcing</Em>.
+            From <Em>business process automation</Em> and custom{' '}
+            <Em>web/mobile apps</Em> to <Em>enterprise platforms</Em> and{' '}
+            <Em>e-commerce systems</Em>, Coregy delivers technology solutions
+            that scale with your business.
           </Text>
 
           <Flex
@@ -261,11 +265,12 @@ const HighlightsSection = () => {
         </VStack>
       </HighlightsItem>
 
-      <HighlightsItem title="Scalable & Reliable">
+      <HighlightsItem title="Scalable, Reliable & Custom-Built">
         <Text color="muted" fontSize="lg">
-          Coregy&apos;s AI-driven architecture ensures scalability, reliability,
-          and real-time processing for high-demand industries like e-commerce
-          and automated trading.
+          Our architecture is designed to support businesses at any stage of
+          growth. We ensure scalability, reliability, and flexibility across
+          industries—backed by a team experienced in building high-impact,
+          real-world systems.
         </Text>
       </HighlightsItem>
 
@@ -275,9 +280,10 @@ const HighlightsSection = () => {
         avatar="/static/images/avt.webp"
         gradient={['blue.400', 'blue.800']} // Đổi gradient màu xanh
       >
-        “Coregy revolutionizes business operations with AI-driven solutions,
-        enhancing efficiency, scalability, and automation across e-commerce,
-        enterprise management, trading, and digital transformation.”
+        “At Coregy, we help businesses accelerate their digital journey by
+        delivering end-to-end custom software solutions. From automation and AI
+        integration to full-stack development, our goal is to make operations
+        smarter and more efficient.”
       </HighlightsTestimonialItem>
 
       <HighlightsItem
@@ -285,29 +291,30 @@ const HighlightsSection = () => {
         title="Elevate Your Business with Coregy"
       >
         <Text color="muted" fontSize="lg">
-          Experience the next generation of AI-driven automation, optimized for
-          e-commerce, finance, and digital transformation.
+          Partner with Coregy to build scalable digital systems — from custom
+          software outsourcing to workflow automation, e-commerce platforms, and
+          enterprise transformation.
         </Text>
         <Wrap mt="8">
           {[
-            'E-commerce Solution',
-            'Zalo OA Solution',
-            'Magento 2 Solution',
-            'Shopify Solution',
+            'Custom Software Development',
             'Digital Transformation',
-            'Odoo ERP Solution',
-            'MT5 Trading Bots',
-            'Zalo Chatbot',
+            'E-commerce Platforms',
+            'ERP Implementation (Odoo, SAP)',
             'Zalo Mini App',
-            'AI Agents for Task Automation',
-            'AI Agents for Business Development',
-            'Mobile App Development',
+            'Dropship Shopify Solutions',
             'Web App Development',
+            'Mobile App Development',
+            'AI Workflow Automation',
+            'Business Process Optimization',
+            'AI Agents for Operations',
+            'Zalo Chatbot & ZNS Solutions',
+            'Outsourced Engineering Teams',
           ].map((value) => (
             <Tag
               key={value}
               variant="subtle"
-              colorScheme="blue" // Đổi từ "purple" sang "blue"
+              colorScheme="blue"
               rounded="full"
               px="3"
             >
@@ -331,16 +338,17 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Unlock the power of
-          <Br /> AI & Digital Transformation.
+          Unlock the Power of
+          <Br /> Custom Software & Digital Innovation.
         </Heading>
       }
       description={
         <>
-          Coregy provides cutting-edge AI-powered solutions for businesses.
+          Coregy delivers end-to-end software outsourcing services to support
+          your business transformation.
           <Br />
-          Enhance efficiency, automate processes, and scale effortlessly with
-          our intelligent technology.
+          From automation and app development to ERP systems and e-commerce
+          platforms—built for scale, speed, and success.
         </>
       }
       align="left"
@@ -348,66 +356,66 @@ const FeaturesSection = () => {
       iconSize={4}
       features={[
         {
-          title: 'E-commerce Solutions.',
-          icon: FiShoppingCart,
+          title: 'Custom Software Development.',
+          icon: FiCode,
           description:
-            'Leverage AI-powered insights and automation to enhance customer experiences and optimize online sales.',
+            'Build tailored software solutions to solve business-specific challenges with flexibility and scalability.',
           variant: 'inline',
         },
         {
           title: 'Digital Transformation.',
           icon: FiRefreshCcw,
           description:
-            'Seamlessly integrate AI and automation into your business processes, driving efficiency and scalability.',
+            'Modernize operations and systems by digitizing workflows, improving efficiency, and embracing innovation.',
           variant: 'inline',
         },
         {
-          title: 'Automated Trading Bots.',
-          icon: FiTrendingUp,
+          title: 'E-commerce Platforms.',
+          icon: FiShoppingCart,
           description:
-            'Deploy intelligent MT5 trading bots that optimize strategies, execute trades, and maximize profitability.',
+            'Develop scalable, conversion-driven e-commerce solutions integrated with inventory and order management.',
           variant: 'inline',
         },
         {
-          title: 'AI Agents for Automation.',
+          title: 'AI Agents & Automation.',
           icon: FiCpu,
           description:
-            'Implement AI-driven agents to handle repetitive tasks, customer interactions, and business workflows.',
+            'Automate repetitive processes and enhance customer engagement using intelligent AI-driven agents.',
           variant: 'inline',
         },
         {
-          title: 'Custom ERP & CRM Solutions.',
+          title: 'ERP & CRM Integration.',
           icon: FiLayers,
           description:
-            'Utilize Coregy’s ERP and CRM solutions to streamline operations and improve business management.',
+            'Streamline internal operations with customized ERP and CRM systems like Odoo, SAP, or custom stacks.',
           variant: 'inline',
         },
         {
-          title: 'Zalo OA & Chatbot Solutions.',
+          title: 'Chatbots & Zalo OA Solutions.',
           icon: FiMessageCircle,
           description:
-            'Engage customers through automated chatbots and Zalo Official Account integrations.',
+            'Connect with customers using Zalo Official Account automation and chatbot integrations.',
           variant: 'inline',
         },
         {
-          title: 'Scalable Cloud Architecture.',
+          title: 'Cloud Architecture & DevOps.',
           icon: FiCloud,
           description:
-            'Deploy high-performance cloud-based applications optimized for speed, security, and scalability.',
+            'Deploy secure, high-performance applications with CI/CD pipelines and scalable cloud-native infrastructure.',
           variant: 'inline',
         },
         {
-          title: 'AI-powered Data Analytics.',
+          title: 'Data & Business Intelligence.',
           icon: FiBarChart2,
           description:
-            'Gain deeper business insights with AI-driven data analytics and real-time reporting.',
+            'Turn raw data into actionable insights through AI analytics, dashboards, and real-time reporting.',
           variant: 'inline',
         },
         {
           title: 'Web & Mobile App Development.',
           icon: FiSmartphone,
           description:
-            'Build robust, scalable, and user-friendly web and mobile applications tailored to your business needs.',
+            'Deliver seamless user experiences through modern, responsive apps across iOS, Android, and the web.',
           variant: 'inline',
         },
       ]}

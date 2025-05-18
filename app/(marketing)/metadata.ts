@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 export const generateMetadata = (): Metadata => ({
-  title: 'Coregy | Transforming Businesses with AI & Digital Commerce',
+  title: 'Coregy | Custom Software, Digital Transformation & AI Automation',
   description:
-    'Empowering businesses with AI-driven digital transformation, intelligent e-commerce solutions, and automation through trading bots & chatbots.',
+    'Coregy provides full-service software outsourcing for businesses — from custom development and e-commerce platforms to AI automation and enterprise system integration.',
 })

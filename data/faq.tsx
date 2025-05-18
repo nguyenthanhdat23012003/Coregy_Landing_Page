@@ -7,46 +7,46 @@ const faq = {
       q: 'Is Coregy suitable for my business?',
       a: (
         <>
-          Absolutely! Coregy offers flexible solutions for businesses of all
-          sizes, from startups to large enterprises. Whether you need e-commerce
-          integration, digital transformation, or AI-driven automation, we’ve
-          got you covered.
+          Definitely! Coregy provides tailored software outsourcing solutions
+          for businesses of all sizes—from startups to global enterprises.
+          Whether you need digital transformation, AI automation, or a
+          full-stack product team, we can support your growth journey.
         </>
       ),
     },
     {
-      q: 'Which e-commerce platforms does Coregy support?',
+      q: 'Which platforms and systems does Coregy support?',
       a: (
         <>
-          Coregy seamlessly integrates with <strong>Magento, Shopify</strong>,
-          and other e-commerce platforms. We optimize sales processes,
-          streamline order management, and enhance marketing campaigns for
-          better efficiency.
+          We support integrations with popular platforms such as{' '}
+          <strong>Shopify, Magento, Odoo, SAP</strong>, and more. From
+          e-commerce and ERP to custom web and mobile apps, our team ensures
+          seamless implementation and long-term scalability.
         </>
       ),
     },
     {
-      q: 'Does Coregy provide chatbot and trading bot solutions?',
+      q: 'Does Coregy offer automation and AI services?',
       a: (
         <>
-          Yes! Our <strong>AI Chatbots</strong> automate customer support, order
-          processing, and product recommendations. Meanwhile, our{' '}
-          <strong>Trading Bots</strong> help businesses automate investment
-          strategies and transactions on multiple platforms.
+          Absolutely. Our <strong>AI Agents</strong> help businesses automate
+          workflows, customer support, and reporting. We also provide{' '}
+          <strong>custom AI model integration</strong>, including chatbots,
+          recommendation systems, and intelligent decision-making tools.
         </>
       ),
     },
     {
-      q: 'How can I implement Zalo solutions with Coregy?',
+      q: 'Can Coregy help with Zalo-based solutions?',
       a: (
         <>
-          Coregy provides full{' '}
+          Yes! We offer end-to-end Zalo integration including{' '}
           <strong>
-            Zalo Mini App, Chatbot, Marketing Automation, OA Management
+            Zalo Mini App, Zalo OA, Marketing Automation (ZNS), and Chatbot
+            Development
           </strong>
-          , and more. Our solutions help businesses engage with customers,
-          optimize marketing campaigns, and manage sales channels efficiently on
-          Zalo.
+          . These tools help streamline customer engagement and boost conversion
+          across Zalo channels.
         </>
       ),
     },

@@ -11,7 +11,7 @@ const siteConfig = {
   seo: {
     title: 'Coregy',
     description:
-      'Empowering businesses with AI-driven digital transformation, intelligent e-commerce solutions, and automation through trading bots & chatbots.',
+      'Coregy provides full-service software outsourcing for businesses — from custom development and e-commerce platforms to AI automation and enterprise system integration.',
   } as NextSeoProps,
   termsUrl: '#',
   privacyUrl: '#',
@@ -51,7 +51,7 @@ const siteConfig = {
         Built by{' '}
         <Link href="https://www.linkedin.com/company/coregy">Coregy Team</Link>
         <br />
-        Copyright © 2024 Coregy. All rights reserved.
+        Copyright © 2025 Coregy. All rights reserved.
       </>
     ),
     links: [
@@ -64,7 +64,7 @@ const siteConfig = {
         label: <FaLinkedin size="14" />,
       },
       {
-        href: 'https://github.com/nguyenthanhdat23012003/Coregy_Landing_Page',
+        href: 'https://github.com/hodynguyen/Coregy_Landing_Page',
         label: <FaGithub size="14" />,
       },
       {
@@ -72,11 +72,11 @@ const siteConfig = {
         label: <FaTwitter size="14" />,
       },
       {
-        href: '/terms',
+        href: '/',
         label: 'Terms',
       },
       {
-        href: '/privacy',
+        href: '/',
         label: 'Privacy',
       },
     ],
@@ -88,23 +88,25 @@ const siteConfig = {
         icon: FiCheck,
         title: 'Scalable',
         description:
-          'Coregy grows with your business, from startups to enterprises.',
+          'Designed to support growth across all business sizes — from startups to large enterprises.',
       },
       {
         icon: FiCheck,
-        title: 'Customizable',
-        description: 'Adapt AI and automation tools to fit your needs.',
-      },
-      {
-        icon: FiCheck,
-        title: 'Integrated',
+        title: 'Flexible',
         description:
-          'Seamlessly connect with Shopify, Magento, Odoo, and Zalo.',
+          'Custom-built software and automation tailored to your specific industry and workflow.',
       },
       {
         icon: FiCheck,
-        title: 'Efficient',
-        description: 'Boost productivity with AI-powered automation.',
+        title: 'Seamlessly Integrated',
+        description:
+          'Works perfectly with Shopify, Odoo, Zalo, and other enterprise systems.',
+      },
+      {
+        icon: FiCheck,
+        title: 'AI-Optimized',
+        description:
+          'Enhance productivity and decision-making through intelligent automation and smart tools.',
       },
     ],
   },
