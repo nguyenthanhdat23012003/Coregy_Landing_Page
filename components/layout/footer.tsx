@@ -21,7 +21,10 @@ export const Footer: React.FC<FooterProps> = (props) => {
   return (
     <Box bg="white" _dark={{ bg: 'gray.900' }} {...rest}>
       <Container maxW="container.2xl" px="8" py="8">
-        <SimpleGrid columns={columns}>
+        <SimpleGrid
+          columns={{ base: 1, md: columns }}
+          spacing={{ base: 8, md: 0 }}
+        >
           <Stack spacing="8">
             <Stack alignItems="flex-start">
               <Flex>
@@ -33,7 +36,13 @@ export const Footer: React.FC<FooterProps> = (props) => {
             </Stack>
             <Copyright>{siteConfig.footer.copyright}</Copyright>
           </Stack>
-          <HStack justify="flex-end" spacing="4" alignSelf="flex-end">
+
+          <HStack
+            justify={{ base: 'flex-start', md: 'flex-end' }}
+            spacing="4"
+            alignSelf={{ base: 'flex-start', md: 'flex-end' }}
+            wrap="wrap"
+          >
             {siteConfig.footer?.links?.map(({ href, label }) => (
               <FooterLink key={href} href={href}>
                 {label}
